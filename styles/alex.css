@@ -1,15 +1,19 @@
 * {
     /* border: 1px solid greenyellow; */
 }
-body {
-    /* background-image: url("https://cutewallpaper.org/21/worst-wallpaper/this-is-the-worst-wallpaper-that-ever-happened-to-me-.jpg"); */
+html, body {
+    font-family: 'Rampart One', cursive;
+    height: 100%;
+    /* backgr
+    ound-image: url("https://cutewallpaper.org/21/worst-wallpaper/this-is-the-worst-wallpaper-that-ever-happened-to-me-.jpg"); */
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
     /* color: rgb(0, 0, 0); */
+    
 }
 header {
     /* width: max-content; */
-    height: 300px;;
+    height: 250px;;
     padding-top: 70px;
     border-bottom: 20px solid orangered;
     color: powderblue;
@@ -17,15 +21,20 @@ header {
 }
 .main {
     background-image: url("https://cutewallpaper.org/21/worst-wallpaper/this-is-the-worst-wallpaper-that-ever-happened-to-me-.jpg");
+    /* background-size: 800px 650px; */
+    background-repeat: repeat;
     display: flex;
+    height:fit-content ;
 }
 .left {
-    flex: 4;
+    flex: 2;
 }
 .center {
-    flex: 12;
-    background-color: rgb(64, 163, 24);
-    opacity: 0.5;
+    flex: 8;
+    background-color: rgba(64, 163, 24, 0.5);
+    /* opacity: 0.5; */
+    font-size: 38px;
+    font-weight: bolder;
 }
 .right {
     flex: 1;
@@ -38,6 +47,7 @@ header {
     margin:0 0.3em 0.3em 0;
     border-radius:0.12em;
     box-sizing: border-box;
+    box-shadow: 5px 10px 18px rgb(33, 172, 68);
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:300;
@@ -48,4 +58,22 @@ header {
 .nowhere-btn:hover{
     color:#000000;
     background-color:#2a8f2f
+}
+.facts {
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-title {
+    background-color: blueviolet;
+    text-align: right;
+    padding-right: 40px;
+}
+.side-title {
+    border-bottom: 2px solid black;
+}
+footer {
+    padding: 10px 0;
+}
+.footer-title {
+    text-align: center;
 }
