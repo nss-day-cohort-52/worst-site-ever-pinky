@@ -1,0 +1,51 @@
+* {
+    /* border: 1px solid greenyellow; */
+}
+body {
+    /* background-image: url("https://cutewallpaper.org/21/worst-wallpaper/this-is-the-worst-wallpaper-that-ever-happened-to-me-.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* color: rgb(0, 0, 0); */
+}
+header {
+    /* width: max-content; */
+    height: 300px;;
+    padding-top: 70px;
+    border-bottom: 20px solid orangered;
+    color: powderblue;
+    background-image: url("https://wi.wallpapertip.com/wsimgs/67-673684_wallpaper-in-motion-v-vendetta-wallpaper-vintage-flower.jpg");
+}
+.main {
+    background-image: url("https://cutewallpaper.org/21/worst-wallpaper/this-is-the-worst-wallpaper-that-ever-happened-to-me-.jpg");
+    display: flex;
+}
+.left {
+    flex: 4;
+}
+.center {
+    flex: 12;
+    background-color: rgb(64, 163, 24);
+    opacity: 0.5;
+}
+.right {
+    flex: 1;
+    padding: 25px
+}
+.nowhere-btn{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:2em solid #9b1f1f;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#bb1c1c;
+    text-align:center;
+    transition: all 0.2s;
+}
+.nowhere-btn:hover{
+    color:#000000;
+    background-color:#2a8f2f
+}
