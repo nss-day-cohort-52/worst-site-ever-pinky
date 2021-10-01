@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://worldwideinterweb.com/wp-content/uploads/2014/10/funny-desktop-background.jpg");
+    background-image: url("https://www.meme-arsenal.com/memes/22ddeac14016af2091d3d0842937620a.jpg");
 }
 
 body {
@@ -20,9 +20,11 @@ body {
 
       width: 60px;
       height: 20px;
-     margin: 190px;
-     padding: 150px;
-      
+     position: absolute;
+     margin: 500px;
+     top:0;
+    
+     
       
   }
 
@@ -36,8 +38,10 @@ body {
   .ipsumBox {
       width: 500px;
       height: 800px;
-      margin: 20px;
+      margin: 139px;
       padding: 100px;
       border: 8px dashed red;
+      background-color: #ffca00; 
+      font-family: 'Birthstone', cursive;
   }
  
