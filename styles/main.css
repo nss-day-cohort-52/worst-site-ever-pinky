@@ -1,3 +1,70 @@
+@import url(error.css);
+
 nav {
     font-size: 80px;
 }
+
+body {
+    background-image: url("https://memegenerator.net/img/instances/65060491.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h5 {
+  color: pink;
+}
+
+h6 {
+  color: rebeccapurple
+}
+
+.box {
+    border: 5px seagreen double;
+    border-radius: 20%;
+    font-size: 80px;
+
+}
+
+li {
+    list-style-type: none;
+    color: peru
+}
+
+h1 {
+    color: lawngreen;
+    margin-top: 400px;
+}
+
+
+a:link {
+    color: white !important;
+    background-color: transparent;
+    text-decoration: transparent;
+  }
+
+  a:hover {
+    color: white !important;
+    background-color: transparent;
+    text-decoration: transparent;
+  }
+
+  a:visited {
+    color: white !important;
+    background-color: transparent;
+    text-decoration: transparent;
+  }
+
+  a:active {
+    color: white !important;
+    background-color: transparent;
+    text-decoration: transparent;
+  }
+
+  .name {
+      color: palevioletred;
+  }
+
+  #site {
+      color: blue !important;
+  }
